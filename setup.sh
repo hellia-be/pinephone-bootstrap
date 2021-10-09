@@ -8,7 +8,7 @@ mkdir -p ~/Documents/git
 
 sudo pacman -S git
 cd ~/Documents/git
-git clone https://aur.archlinux.org/yay-bin.git && cd yay
+git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin
 makepkg -si
 
 yay -S puppet
