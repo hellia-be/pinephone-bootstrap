@@ -1,4 +1,5 @@
 sudo pacman -Syyuu
+sudo dd if=/boot/u-boot-sunxi-with-spl-pinephone-552.bin of=/dev/mmcblk2 bs=8k seek=1
 
 mkdir -p ~/Documents/git
 
