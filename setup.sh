@@ -14,5 +14,7 @@ makepkg -si
 yay -S puppet
 su -c "cd /etc && rm -rf puppet && git clone https://github.com/hellia-be/pinephone.git puppet"
 
+gsettings set sm.puri.phoc scale-to-fit true
+
 yay -S openssh
 sudo systemctl enable --now sshd
