@@ -14,8 +14,5 @@ makepkg -si
 yay -S puppet
 su -c "cd /etc && rm -rf puppet && git clone https://github.com/hellia-be/pinephone.git puppet"
 
-gsettings set sm.puri.phoc scale-to-fit true
-gsettings set org.gnome.desktop.interface enable-animations false
-
 yay -S openssh
-sudo systemctl enable --now sshd
+sudo systemctl start sshd
